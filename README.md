@@ -4,7 +4,7 @@
 A website to search and get weather information about a specific location.
 ## API and Data Sample
 https://developer.accuweather.com/apis
-http://dataservice.accuweather.com/locations/v1/cities/search?apikey=ZlDeNRCsefCGxyglaMs21avNuR1vdXVa&q=San Antonio
+http://dataservice.accuweather.com/locations/v1/cities/search?apikey=ZlDeNRCsefCGxyglaMs21avNuR1vdXVa&q=Leander
 
 ## Wireframes
 https://wireframe.cc/zOpyrU
@@ -65,7 +65,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | PostMVP checks/fixes/tweaks| H | 3hrs|  |  |
 | Adding a extra card | H | 3hrs|  |  |
 | Token to check with team lead before presentation day | H | 20min|  |  |
-| Total | H | 37hrs| 5hrs | 5hrs |
+| Total | H | 40hrs| hrs | hrs |
 
 ## Code Snippet
 
