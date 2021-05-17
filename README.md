@@ -143,19 +143,19 @@ https://wireframe.cc/zOpyrU
 ### MVP/PostMVP
 
 #### MVP 
--A working search function.
--API to get the information and pictures from.
--A media query for a Iphone/smaller device to display the website differently.
--Using CSS to have different background colors.
--Eventlisteners for the submit search.
+- A working search function.
+- API to get the information and pictures from.
+- A media query for a Iphone/smaller device to display the website differently.
+- Using CSS to have different background colors.
+- Eventlisteners for the submit search.
 
 #### PostMVP  
--A hamburger menu.
-Top Cities API.
-Nav Bar.
-Home Anchor link.
-Top Cities Anchor link.
--Icon/Image for weather 
+- A hamburger menu.
+- Top Cities API.
+- Nav Bar.
+- Home Anchor link.
+- Top Cities Anchor link.
+- Icon/Image for weather 
 
 ## Project Schedule
 
