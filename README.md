@@ -3,7 +3,8 @@
 ## Project Description
 A website to search and get weather information about a specific location.
 ## API and Data Sample
-https://developer.accuweather.com/apis
+API DOCS: https://developer.accuweather.com/apis
+Data Sample: https://developer.accuweather.com/apis
 http://dataservice.accuweather.com/locations/v1/cities/search?apikey=ZlDeNRCsefCGxyglaMs21avNuR1vdXVa&q=Leander
 
 ## Wireframes
