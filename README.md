@@ -1,5 +1,5 @@
 
-# Are Ya Da Park
+# Are Ya Da Weather
 ## Project Description
 A website to search and get weather information about a specific location.
 ## API and Data Sample
