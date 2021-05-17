@@ -18,7 +18,6 @@ https://wireframe.cc/zOpyrU
 -A media query for a Iphone/smaller device to display the website differently.
 -Using CSS to have different background colors.
 -Eventlisteners for the submit search.
--Icon/Image for weather 
 
 #### PostMVP  
 -A hamburger menu.
@@ -26,6 +25,7 @@ Top Cities API.
 Nav Bar.
 Home Anchor link.
 Top Cities Anchor link.
+-Icon/Image for weather 
 
 ## Project Schedule
 
