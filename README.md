@@ -165,7 +165,7 @@ https://wireframe.cc/zOpyrU
 |May 17| Project Approval / Pseudocode / | Incomplete
 |May 18| Actual code / Working API  | Incomplete
 |May 19| Eventlisteners / CSS  | Incomplete
-|May 20| MVP / postMVP | Incomplete
+|May 20| MVP / Advanced CSS | Incomplete
 |May 21| Presentations | Incomplete
 
 ## Priority Matrix
@@ -173,10 +173,6 @@ https://wireframe.cc/zOpyrU
 https://app.conceptboard.com/board/m0m0-xu1e-d934-qkdf-3pgp
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -186,18 +182,14 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding Form | H | 3hrs|  |  |
 | City API callback function | H | 3hrs|  |  |
 | Weather API callback function | H | 3hrs|  |  |
-| DOM manipulation  | H | 3hrs|  |  |
 | Eventlisteners/RemoveChild()| H | 3hrs|  |  |
 | CSS styling for main page| H | 3hrs|  |  |
 | layout for smaller device  | H | 3hrs|  |  |
-| CSS styling for snaller device | H | 3hrs|  |  |
-| MVP check| H | 1hrs|  |  |
-| MVP fixes| H | 1hrs|  |  |
-| MVP tweaks| H | 1hrs|  |  |
+| CSS styling for smaller device | H | 3hrs|  |  |
+| MVP check/fixes/tweaks| H | 3hrs|  |  |
 | PostMVP checks/fixes/tweaks| H | 3hrs|  |  |
 | Adding a extra card | H | 3hrs|  |  |
-| Token to check with team lead before presentation day | H | 20min|  |  |
-| Total | H | 40hrs| hrs | hrs |
+| Total | H | 37hrs| hrs | hrs |
 
 ## Code Snippet
 
