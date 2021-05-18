@@ -19,10 +19,13 @@ async function getCity(city) {
 function cityName(data) {
   // console.log(data.location.name)
   let cityNames = `
-  <h4 id="names">${data.location.name}</h4>
-  <img src="${data.current.condition.icon}">
+  <div class="locationCard"
+  <h3 id="names">${data.location.name}</h3>
+  <img id="ax" src="https://darkhunts.com/wp-content/uploads/2020/05/fix-internet-connection.png">
   <p>${data.current.temp_f}°F</p>
-
+  <h4>${data.current.cloud}</h4>
+  <h5>${data.current.condition.text}</h5>
+  </div>
   `
   console.log(cityNames)
   locationName.insertAdjacentHTML("beforeend", cityNames)
@@ -47,3 +50,4 @@ function removeCity(removingCity) {
   }
 }
 // while 
+{/* <img id="ax" src="${data.current.condition.icon}"></img> */}

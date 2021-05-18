@@ -21,6 +21,21 @@ a {
   color:azure;
   text-decoration: none;
 }
+.locationCard {
+  text-align: center;
+  border: cornflowerblue 2px solid;
+}
+#ax {
+  width: 300px;
+  height: 400px;
+}
+
+
+.location, h1 {
+  text-align: center;
+}
+
+
 
 
  /* .container{
