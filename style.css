@@ -1,0 +1,41 @@
+header {
+  text-align: center;
+}
+#nav-bar {
+  list-style-type: none;
+  margin: -20px;
+  padding: 5px;
+  background-color: burlywood;
+  overflow: hidden;
+}
+li{
+  float: right;
+  list-style: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+a {
+  color:azure;
+  text-decoration: none;
+}
+
+
+ /* .container{
+   text-align: center;
+ }
+
+
+footer {
+  color: rgb(4, 59, 47);
+  text-align: center;
+  padding: 14px 16px;
+  background-color: rgb(12, 130, 209);
+  margin: 100px 10px 100px 10px;
+}
+.pictures {
+  width: 20px;
+  height: 20px;
+} */
