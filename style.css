@@ -1,3 +1,12 @@
+*{
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+body{
+  background-color: #edf2fb;
+}
+
+
 header {
   text-align: center;
 }
@@ -5,7 +14,7 @@ header {
   list-style-type: none;
   margin: -20px;
   padding: 5px;
-  background-color: burlywood;
+  background-color: #bcd4e6;
   overflow: hidden;
 }
 li{
@@ -18,31 +27,82 @@ li{
   text-decoration: none;
 }
 a {
-  color:azure;
+  color: black;
   text-decoration: none;
 }
+
+h1, p {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Chela One', cursive;
+}
+
+#city-search {
+  padding: 10px 40px 0px 40px;
+  text-align: center;
+}
+.location {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .locationCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#names {
+  font-family: 'Rubik Mono One', sans-serif;
+  padding: 10px 1px 10px 1px;
+  border: white 1px dotted;
+  border-radius: 20%;
+}
+/* #get-weather {
+  background-color: Transparent;
+  border: none;
+  outline:none;
+  color: transparent;
+} */
+/* .locationCard {
   text-align: center;
   border: cornflowerblue 2px solid;
-}
-#ax {
+} */
+/* #ax {
   display: block;
   width: 400px;
   height: 500px;
+} */
+#casting {
+  font-size: 25px;
+  font-family: 'Rubik Mono One', sans-serif;
+  color: white;
 }
-
-
-.location, h1 {
-  text-align: center;
+#kilo{
+  font-size: 30px;
+  font-family: 'Chela One', cursive;
 }
-
+#oilk{
+  font-family: 'Chela One', cursive;
+  font-size: 30px;
+}
 .locationCard {
-  margin: 50px 300px 50px 300px;
+  border: darkgray solid 2px;
+  margin: 50px 130px 0px 130px;
+  background-color: rgb(205, 236, 255);
 }
 
 #iconImg {
+  border: solid rgb(255, 255, 255) 1px;
   border-radius: 50%;
+  background-color: #d5e0e7;
+  margin: -32px 0px 1px 0px;
+  
 }
+#poli{
+  color: white;
+}
+
 
 
 
