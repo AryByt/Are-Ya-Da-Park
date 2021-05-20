@@ -25,9 +25,8 @@ function astroInfo(data) {
    <h1>Sunrise ${data.sunrise}</h1>
    <h1>Moonrise${data.moonrise}</h1>
    <h1>Moonset${data.moonset}</h1>
-   <h1>${data.moon_phase}</h1>
-   <h1>Sunset${data.sunset}</h1>
-   
+   <h1>Moonr${data.moon_phase}</h1>
+   <h1>Moonrise${data.sunset}</h1>
   
   `
   locationName.insertAdjacentHTML("beforeend", astroNames)
@@ -40,10 +39,9 @@ form.addEventListener("submit", (e) => {
   e.preventDefault()
   const input = document.querySelector("#city-search").value
   removeCity(locationName)
-  getAstros(input)
+  getCity(input)
   document.querySelector("#city-search").value= " "
 })
-
 
 function removeCity(removingCity) {
   while (removingCity.lastChild) {

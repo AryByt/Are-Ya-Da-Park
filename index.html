@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script defer src="./app.js"></script>
+  <!-- <script  src="./script.js"></script> -->
+
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <link href="./style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -17,24 +19,29 @@
   <title>Are Ya Da Weather</title>
 </head>
 <body>
+  <h1 id="wlc">Welcome to</h1>
   <nav>
-    <div class="logo"><h1>Welcome to</h1></div>
+    <div class="logo"></div>
     <ul class="mainMenu">
         <li><a href="#">Home</a></li>
         <li><a href="#">Astro</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">About</a></li>
     </ul>
 </nav>
-<h1>Are Ya Da Weather</h1> 
+<h1 class="arya">Are Ya Da Weather</h1> 
 <h4>Enter a location for weather</h4>
 <div>
   <form class="location">
     <input type="text" name="city" id="city-search">
-    <!-- <input type="submit" id="get-weather"> -->
+    <input type="submit" id="get-weather">
   </form>
 </div>
 
+<!-- <div>
+  <form class="location">
+    <input type="text" name="city" id="city-search">
+    <input type="submit" id="get-weather">
+  </form>
+</div> -->
 
 <div id="location-card">
 </div>
@@ -43,8 +50,6 @@
 </section>
 <div id="rest">
 </div>
-
-
 
 
 
@@ -84,9 +89,9 @@
 
 <!-- <footer>
   <span id="api">API DOCS</span>
-  <span id="github"><img class="pictures" src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png"/>></span>
+  <span id="gitHub"><img class="pictures" src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png"/>></span>
   <span id="fname">Arya Bayati</span>
-  <span id="Linkedin"><img class="pictures"src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png"/></span>
+  <span id="linkedin"><img class="pictures"src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png"/></span>
   <span id="localTime">TIME</span>
 </footer> -->
 </body>
