@@ -1,5 +1,6 @@
 
 # Are Ya Da Weather
+[Deployed](https://arybyt.github.io/Are-Ya-Da-Weather/)
 ## Project Description
 A website to search and get weather information about a specific location.
 ## API and Data Sample
@@ -145,7 +146,7 @@ https://wireframe.cc/zOpyrU
 #### MVP 
 - A working search function.
 - API to get the information and pictures from.
-- A media query for a Iphone/smaller device to display the website differently.
+- A media query for larger device to display the website differently.
 - Using CSS to have different background colors.
 - Eventlisteners for the submit search.
 
@@ -153,19 +154,18 @@ https://wireframe.cc/zOpyrU
 - A hamburger menu.
 - Top Cities API.
 - Nav Bar.
-- Home Anchor link.
-- Top Cities Anchor link.
+- Anchor links to direct to a new webite.
 - Icon/Image for weather 
 
 ## Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|May 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|May 17| Project Approval / Pseudocode / | Incomplete
-|May 18| Actual code / Working API  | Incomplete
-|May 19| Eventlisteners / CSS  | Incomplete
-|May 20| MVP / Advanced CSS | Incomplete
+|May 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|May 17| Project Approval / Pseudocode / | Complete
+|May 18| Actual code / Working API  | Complete
+|May 19| Eventlisteners / CSS  | Complete
+|May 20| MVP / Advanced CSS | Complete
 |May 21| Presentations | Incomplete
 
 ## Priority Matrix
@@ -176,19 +176,19 @@ https://app.conceptboard.com/board/m0m0-xu1e-d934-qkdf-3pgp
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Pseudocode | H | 1hrs|  |  |
-| Html structure | H | 3hrs|  |  |
-| CSS structure | H | 3hrs|  |  |
-| Adding Form | H | 3hrs|  |  |
-| City API callback function | H | 3hrs|  |  |
-| Weather API callback function | H | 3hrs|  |  |
-| Eventlisteners/RemoveChild()| H | 3hrs|  |  |
-| CSS styling for main page| H | 3hrs|  |  |
-| layout for smaller device  | H | 3hrs|  |  |
-| CSS styling for smaller device | H | 3hrs|  |  |
-| MVP check/fixes/tweaks| H | 3hrs|  |  |
-| PostMVP checks/fixes/tweaks| H | 3hrs|  |  |
-| Adding a extra card | H | 3hrs|  |  |
+| Pseudocode | H | 1hrs| 1hr |  |
+| Html structure | H | 3hrs| 3hr | 2hrs |
+| CSS structure | H | 3hrs| 3hrs | 3hrs |
+| Adding Form | H | 3hrs| 3hrs | 2hrs |
+| City API callback function | H | 3hrs| 3hrs | 4hrs |
+| Weather API callback function | H | 3hrs| 3hrs | 4hrs |
+| Eventlisteners/RemoveChild()| H | 3hrs| 3hrs | 3hrs |
+| CSS styling for main page| H | 3hrs| 3hrs | 5hrs |
+| layout for larger device  | H | 3hrs| 3hrs | 1hrs |
+| CSS styling for larger device | H | 3hrs| 3hrs | 2hrs |
+| MVP check/fixes/tweaks| H | 3hrs| 3hrs | 4hrs |
+| PostMVP checks/fixes/tweaks| H | 3hrs| 3hrs | 4hrs |
+| Adding a extra card | H | 3hrs| 3hrs | 2hrs |
 | Total | H | 37hrs| hrs | hrs |
 
 ## Code Snippet
@@ -202,4 +202,6 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ - Styling of the page changed.
+ - Didn't do a second card.
+ - Only used one API instead of two.
