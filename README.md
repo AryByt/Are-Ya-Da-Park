@@ -166,7 +166,7 @@ https://wireframe.cc/zOpyrU
 |May 18| Actual code / Working API  | Complete
 |May 19| Eventlisteners / CSS  | Complete
 |May 20| MVP / Advanced CSS | Complete
-|May 21| Presentations | Incomplete
+|May 21| Presentations | Complete
 
 ## Priority Matrix
 
@@ -176,7 +176,7 @@ https://app.conceptboard.com/board/m0m0-xu1e-d934-qkdf-3pgp
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Pseudocode | H | 1hrs| 1hr |  |
+| Pseudocode | H | 1hrs| 1hr | 2hrs |
 | Html structure | H | 3hrs| 3hr | 2hrs |
 | CSS structure | H | 3hrs| 3hrs | 3hrs |
 | Adding Form | H | 3hrs| 3hrs | 2hrs |
@@ -189,7 +189,7 @@ https://app.conceptboard.com/board/m0m0-xu1e-d934-qkdf-3pgp
 | MVP check/fixes/tweaks| H | 3hrs| 3hrs | 4hrs |
 | PostMVP checks/fixes/tweaks| H | 3hrs| 3hrs | 4hrs |
 | Adding a extra card | H | 3hrs| 3hrs | 2hrs |
-| Total | H | 37hrs| hrs | hrs |
+| Total | H | 37hrs| 37hrs | 38hrs |
 
 ## Code Snippet
 
