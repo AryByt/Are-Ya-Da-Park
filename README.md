@@ -196,8 +196,10 @@ https://app.conceptboard.com/board/m0m0-xu1e-d934-qkdf-3pgp
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function removeCity(removingCity) {
+  while (removingCity.lastChild) {
+    removingCity.removeChild(locationName.lastChild)
+  }
 }
 ```
 
