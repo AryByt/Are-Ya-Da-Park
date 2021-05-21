@@ -13,28 +13,22 @@ async function getCity(city) {
     console.error(error)
   }
 }
-    
-
 
   function cityName(data) {
   let cityIcon = `${data.current.condition.icon}`
   let workingIcon = cityIcon.replace("//", "https://")
-  console.log(data)
-
   let dayOrNightImg=""
    if (data.current.is_day == 0) {
-    dayOrNightImg="./600x600-night.jpeg"
-  }
+     dayOrNightImg = "./600x600-night.jpeg"
+   }
   else {
     dayOrNightImg="./day-picture.jpeg"
-  }
-
-
-  let cityNames = `
-  <div class="location-card">
+    }
+    let cityNames = `
+    <div class="location-card">
     <section class="image-container">
-       <img id="day-or-night-img" src="${dayOrNightImg}">
-        <img id="icon-img" src="${workingIcon}">
+      <img id="day-or-night-img" src="${dayOrNightImg}">
+      <img id="icon-img" src="${workingIcon}">
     </section>
     <h1 id="city-name">${data.location.name}</h1>
     <h2>In normal It's: ${data.current.temp_c}°C</h2>
@@ -43,12 +37,13 @@ async function getCity(city) {
     <h1>Feels like:${data.current.feelslike_f}°F</h1>
     <h2>Humidity is:${data.current.humidity}%</h2>
     <h3>Wind : ${data.current.wind_mph} : mph</h3>
-  </div>
+    </div>
   <footer>State: ${data.location.region}, City: ${data.location.name},${data.location.localtime}</footer>
   `
-  locationName.insertAdjacentHTML("beforeend", cityNames)
+    locationName.insertAdjacentHTML("beforeend", cityNames)
     return cityNames
-}
+  }
+
 const form = document.querySelector(".location")
 form.addEventListener("submit", (e) => {
   e.preventDefault()
@@ -57,6 +52,7 @@ form.addEventListener("submit", (e) => {
   getCity(input)
   document.querySelector("#city-search").value = ""
 })
+
 function removeCity(removingCity) {
   while (removingCity.lastChild) {
     removingCity.removeChild(locationName.lastChild)
