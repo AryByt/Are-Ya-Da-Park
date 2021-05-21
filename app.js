@@ -1,5 +1,5 @@
 const key = "8dd21966983c4da092a154427211705"
-const base = "http://api.weatherapi.com/v1/current.json"
+const base = "https://api.weatherapi.com/v1/current.json"
 const locationName = document.querySelector("#location-card")
 
 async function getCity(city) {
